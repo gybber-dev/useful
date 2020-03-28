@@ -1,0 +1,21 @@
+{
+  "name": "js_mongd-db",
+  "version": "1.0.0",
+  "description": "~~Идём по головам и создаём сервер на Express. За основу берем [урок](https://www.youtube.com/watch?v=8bE_PBRriyU&t=645s).~~",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon mind/app",
+    "start": "node index",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

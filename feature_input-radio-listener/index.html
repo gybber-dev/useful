@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>
+    Making input-radio listener without loops
+  </h1>
+  <div id="_options">
+    <input type="radio" name="option" value="opt_1">some text 1<br>
+    <input type="radio" name="option" value="opt_2">some text 2<br>
+    <input type="radio" name="option" value="opt_3">some text 3<br>
+  </div>
+  <script type="text/javascript">
+    document.querySelector('#_options').onclick = function(){
+      console.log(this.querySelector(`[name="option"]:checked`))
+    }
+    
+  </script>
+  </body>
+</html>

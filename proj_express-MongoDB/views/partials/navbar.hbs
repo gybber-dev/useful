@@ -1,0 +1,21 @@
+<nav class="blue darken-4">
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo center">Logo</a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      {{#if isMain}}
+        <li class="active"><a href="/">Main</a></li>
+      {{else}}
+        <li><a href="/">Main</a></li>
+      {{/if}}
+
+      {{#if isCreate}}
+        <li class="active"><a href="/create">Create</a></li>
+      {{else}}
+        <li><a href="/create">Create</a></li>
+      {{/if}}
+
+        <li><a href="/api">api</a></li>
+
+    </ul>
+  </div>
+</nav>
