@@ -2,7 +2,8 @@ There are some useful features for Markdown here:
 * [Links](#Links)
 * [Toggle block](#Toggle-block)
 * [Images](#Images)
-## Links
+
+# Links
 Typical construction is:
 ```
   [some text](link)
@@ -25,7 +26,12 @@ Let's see some types of links:
 ```
 [To Links Chapter](#Links)
 
-## Toggle block
+Also you can use an empty text block to create an anchor, like:  
+`[](#anchors-in-markdown)`
+
+
+
+# Toggle block
 ```
 <details>
   <summary>Summary text.</summary>
@@ -37,7 +43,7 @@ Let's see some types of links:
 <code style="white-space:nowrap;">Hello World, how is it going?</code>
 </details>
 
-## Images
+# Images
 
 Add image in .md-file using command:
 ```

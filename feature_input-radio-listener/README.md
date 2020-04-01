@@ -15,5 +15,3 @@ document.querySelector('#_options').onclick = function(){
   console.log(this.querySelector(`[name="option"]:checked`))
 }
 ```
-
-Реализация:[тут](https://farscince.github.io/input-radio-listener/)
